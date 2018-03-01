@@ -9,6 +9,7 @@ git reset --hard 版本号 回退到指定的历史（通过git log 查看历史
 git reflog 查找操作的命令记录
 
 远程仓库
+
 	创建ssh钥匙
 		 ssh-keygen -t rsa -C "youremail@qq.com" 会在本地主目录生成.ssh目录 		里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥
 	
@@ -19,6 +20,8 @@ git reflog 查找操作的命令记录
 	本地内容推送远程仓库（每一次的新文件都需要输入）（也就是github上）
 		git push -u origin master (第一次需要加参数，以后只需要git push/git push origin master)
 
+本地内容推送git上步骤
+	1.add->commit->关联远程仓库->推送内容到远程仓库
 
 
 
