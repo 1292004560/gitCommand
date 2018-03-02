@@ -23,5 +23,8 @@ git reflog 查找操作的命令记录
 本地内容推送git上步骤
 	1.add->commit->关联远程仓库->推送内容到远程仓库
 
+远程仓库下载到内地
+	git clone git@github.com:用户id(duxiangadmin)/项目名.git
+
 
 
