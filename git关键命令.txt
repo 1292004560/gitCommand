@@ -1,7 +1,9 @@
 git init 创建仓库
 git add filename  上传文件到仓库
 git commit -m "注释" 事务提交
+git commit --amend 修改最后一次的注释
 git status 查看当前仓库状态
+git checkout -- filename 撤销上一次操作
 git diff filename 查看文件做了什么修改
 git log 查看历史
 git reset --hard HEAD^ 回退到上一次修改   																			上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
