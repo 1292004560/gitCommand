@@ -17,7 +17,7 @@ git reflog 查找操作的命令记录
 	
 
 	关联远程仓库(每一次提交新的文件都需要输入)
-		git remote add origin git@github.com:用户id(duxiangadmin)/learngit.git 远程库的名字就是origin，这是Git默认的叫法
+		git remote add origin git@github.com:用户id(duxiangadmin)/learngit(git项目名).git 远程库的名字就是origin，这是Git默认的叫法
 
 	本地内容推送远程仓库（每一次的新文件都需要输入）（也就是github上）
 		git push -u origin master (第一次需要加参数，以后只需要git push/git push origin master)
